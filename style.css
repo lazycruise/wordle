@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SF Pro Display;
+}
+
+.area {
+  display: grid;
+  max-width: 400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 0 auto;
+}
+
+.area-box {
+  border: 4px solid #cccccc;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 45px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.correct {
+  background-color: #006400;
+  color: #ffffff;
+}
+
+.close {
+  background-color: #daa520;
+  color: #ffffff;
+}
+
+.incorrect {
+  background-color: #888888;
+  color: #ffffff;
+}
+
+.invalid {
+  border: 4px solid crimson;
+}
+
+.notification p {
+  font-size: 24px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.lose {
+  border: 5px dashed #1d1e22;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: pink;
+}
+
+.win {
+  border: 5px dashed #cbc3c2;
+  border-radius: 5px;
+  margin: 20px;
+  color: skyblue;
+  background-color: #1e6c42;
+}
